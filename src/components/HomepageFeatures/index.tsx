@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Flexible Assessment Creation",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/undraw_online-test_cqv0.svg").default,
     description: (
       <>
         Create and customize assessments using multiple question types,
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Reusable Assessments & Participation",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/undraw_key-insights_ex8y.svg").default,
     description: (
       <>
         Combine questions into assessments, tests, and quizzes. Save them as
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Insights Through Assessment Data",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/undraw_app-benchmarks_ls0m.svg").default,
     description: (
       <>
         Collect assessment data and analyze results to generate meaningful
