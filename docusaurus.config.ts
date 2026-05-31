@@ -78,7 +78,7 @@ const config: Config = {
       title: 'Sashakt',
       logo: {
         alt: 'Sashakt Logo',
-        // src: 'img/logo.svg',
+        src: 'img/favicon-16x16.png',
       },
       items: [
         {
