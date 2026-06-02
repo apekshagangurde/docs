@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Overall Workflow
 
 The main navigation (left panel) includes:
@@ -48,9 +50,9 @@ Tags can be grouped under a **Tag Type**, which acts as a category for related t
 
 6. Click **Add Tag** next to the Tag Type and enter each tag value
 
-<img src={require('../../static/img/sashakt/create-tag-type-btn.png').default} alt="Create Tag Type button" width="350" />
+<img src={useBaseUrl('/img/sashakt/create-tag-type-btn.png')} alt="Create Tag Type button" width="350" />
 
-<img src={require('../../static/img/sashakt/tag-management.png').default} alt="Tag Management row showing Difficulty Level with Medium, Hard, Easy tags" width="800" />
+<img src={useBaseUrl('/img/sashakt/tag-management.png')} alt="Tag Management row showing Difficulty Level with Medium, Hard, Easy tags" width="800" />
 
 ---
 
@@ -67,19 +69,19 @@ You can either create questions individually or bulk upload questions in CSV for
 1. Go to **Question Bank** from the left panel
 2. Click on **Create Question**
 
-<img src={require('../../static/img/sashakt/question-bank-buttons.png').default} alt="Create Question and Bulk Upload buttons" width="450" />
+<img src={useBaseUrl('/img/sashakt/question-bank-buttons.png')} alt="Create Question and Bulk Upload buttons" width="450" />
 
 3. Choose question type from the options given
 
-<img src={require('../../static/img/sashakt/question-type.png').default} alt="Choose Question Type dialog showing Commonly Used and Advanced options" width="500" />
+<img src={useBaseUrl('/img/sashakt/question-type.png')} alt="Choose Question Type dialog showing Commonly Used and Advanced options" width="500" />
 
 4. Enter the following details:
 
-<img src={require('../../static/img/sashakt/question-settings.png').default} alt="Question Settings form with question text and answer options" width="650" />
+<img src={useBaseUrl('/img/sashakt/question-settings.png')} alt="Question Settings form with question text and answer options" width="650" />
 
-<img src={require('../../static/img/sashakt/question-answer-settings.png').default} alt="Answer Settings with options A, B, C, D and correct answer selection" width="650" />
+<img src={useBaseUrl('/img/sashakt/question-answer-settings.png')} alt="Answer Settings with options A, B, C, D and correct answer selection" width="650" />
 
-<img src={require('../../static/img/sashakt/question-tags-marking.png').default} alt="Tag Types, Tags, State selection and Marking Scheme panel" width="650" />
+<img src={useBaseUrl('/img/sashakt/question-tags-marking.png')} alt="Tag Types, Tags, State selection and Marking Scheme panel" width="650" />
 
    - **Question Settings** — Question, Additional Instructions
    - **Answer Settings** — Input the answer options and choose the correct answer
@@ -116,7 +118,7 @@ In the Form Creation page, you have the following options available:
 
 ### Field Configuration Options
 
-<img src={require('../../static/img/sashakt/form-field-types.png').default} alt="Choose Field Type panel showing Commonly Used, General, and Choice List options" width="500" />
+<img src={useBaseUrl('/img/sashakt/form-field-types.png')} alt="Choose Field Type panel showing Commonly Used, General, and Choice List options" width="500" />
 
 | Category | Available Field Types |
 |---|---|
@@ -206,11 +208,11 @@ You can either create a test manually or create from a Test Template.
 5. Based on the selected Tag Types, the related **Tags** will appear in the dropdown for selection. These selected tags will then be associated with the test. (For example: If "Difficulty Level" is selected as the Tag Type, tags such as Easy, Medium, and Hard will be available for selection.)
 6. **Select the district** — As a System Admin, you will be able to view and select from all available states and districts in the system. Only the states and districts selected by you will be available for the State Admin and Test Admin to choose from while preparing or creating tests.
 
-<img src={require('../../static/img/sashakt/test-primary-details.png').default} alt="Primary Details form with Test Name, Description, Tag Types, Tags, District and Test Status fields" width="800" />
+<img src={useBaseUrl('/img/sashakt/test-primary-details.png')} alt="Primary Details form with Test Name, Description, Tag Types, Tags, District and Test Status fields" width="800" />
 
-<img src={require('../../static/img/sashakt/test-district-dropdown.png').default} alt="District dropdown with searchable list of districts" width="400" />
+<img src={useBaseUrl('/img/sashakt/test-district-dropdown.png')} alt="District dropdown with searchable list of districts" width="400" />
 
-<img src={require('../../static/img/sashakt/test-state-dropdown.png').default} alt="State dropdown with searchable list of states" width="400" />
+<img src={useBaseUrl('/img/sashakt/test-state-dropdown.png')} alt="State dropdown with searchable list of states" width="400" />
 
 #### Select Questions (Auto / Manual)
 
@@ -224,7 +226,7 @@ The platform allows you to automatically select questions for a test based on th
 
 This helps create balanced assessments quickly without manually selecting individual questions.
 
-<img src={require('../../static/img/sashakt/question-auto-selection.png').default} alt="Auto Selection panel showing tags Easy and Pedagogy with number of questions per tag" width="700" />
+<img src={useBaseUrl('/img/sashakt/question-auto-selection.png')} alt="Auto Selection panel showing tags Easy and Pedagogy with number of questions per tag" width="700" />
 
 **Manual Selection**
 
@@ -236,7 +238,7 @@ You can also manually select questions to include in the test.
 
 This option gives you full control over exactly which questions are included in the assessment.
 
-<img src={require('../../static/img/sashakt/question-manual-selection.png').default} alt="Manual Selection panel showing question list with answers and tags columns" width="700" />
+<img src={useBaseUrl('/img/sashakt/question-manual-selection.png')} alt="Manual Selection panel showing question list with answers and tags columns" width="700" />
 
 #### Test Configuration
 
@@ -252,7 +254,7 @@ Configure the duration for which the test will remain available to candidates by
 4. With the **candidate information form**, we can select the form that should be shown to candidates before they start the test to collect the required candidate details. These forms can be created and managed using form management from side-bar.
 5. Select the **certificate template** that should be issued to candidates after they complete the test. Certificate templates can be created and managed separately using the Certificates module.
 
-<img src={require('../../static/img/sashakt/candidate-experience.png').default} alt="Candidate Experience panel showing Pre-test Guidelines, Test Completion Message, Language, Candidate Information Form and Certificate fields" width="850" />
+<img src={useBaseUrl('/img/sashakt/candidate-experience.png')} alt="Candidate Experience panel showing Pre-test Guidelines, Test Completion Message, Language, Candidate Information Form and Certificate fields" width="850" />
 
 **Test Rules**
 
@@ -260,14 +262,14 @@ Configure the duration for which the test will remain available to candidates by
 2. You can choose to show marks during the test for real-time visibility.
 3. You can choose to display results immediately after the test is completed.
 
-<img src={require('../../static/img/sashakt/test-rules.png').default} alt="Test Rules panel showing toggle options for shuffle, show marks, and show result" width="700" />
+<img src={useBaseUrl('/img/sashakt/test-rules.png')} alt="Test Rules panel showing toggle options for shuffle, show marks, and show result" width="700" />
 
 ### Create from Test Template
 
 - You can quickly create a new test by selecting a previously created Test Template. Templates help save time by automatically applying all the predefined configurations and settings, eliminating the need to manually configure each option again.
 - Use the available search and filter options to easily find the required template. You can search templates by name or filter them using States, Districts, Tag Types, and Tags.
 
-<img src={require('../../static/img/sashakt/template-search.png').default} alt="Template search bar with filters for states, districts, tag types and tags" width="700" />
+<img src={useBaseUrl('/img/sashakt/template-search.png')} alt="Template search bar with filters for states, districts, tag types and tags" width="700" />
 
 - Simply choose the required template, review the settings if needed, and proceed with creating the test. All configurations included in the selected template — such as tags, question selection method, language options, certificates, test rules, and other settings — will be automatically applied to the new test.
 
@@ -286,7 +288,7 @@ From there, you can:
 - **Edit** the test details and configuration if needed
 - **Delete** the test
 
-<img src={require('../../static/img/sashakt/test-actions.png').default} alt="Test action menu showing Edit, Download QR, Duplicate, Copy Test Link, View Report and Delete options" width="500" />
+<img src={useBaseUrl('/img/sashakt/test-actions.png')} alt="Test action menu showing Edit, Download QR, Duplicate, Copy Test Link, View Report and Delete options" width="500" />
 
 ---
 
@@ -294,7 +296,7 @@ From there, you can:
 
 1. Navigate to **Users** on the left panel → **Create User**
 
-<img src={require('../../static/img/sashakt/create-user-btn.png').default} alt="Users page header with Create User button" width="350" />
+<img src={useBaseUrl('/img/sashakt/create-user-btn.png')} alt="Users page header with Create User button" width="350" />
 
 2. Enter user details:
    - Name
@@ -308,7 +310,7 @@ From there, you can:
    - Set **User Status** to Active (you can enable or disable a user's active status at any time as needed)
    - Click **Save**
 
-<img src={require('../../static/img/sashakt/create-user.png').default} alt="Create User form with Name, Email, Phone Number, Password, Role and User Status fields" width="600" />
+<img src={useBaseUrl('/img/sashakt/create-user.png')} alt="Create User form with Name, Email, Phone Number, Password, Role and User Status fields" width="600" />
 
 ---
 
@@ -318,7 +320,7 @@ From there, you can:
 
 The Organisation Details section allows you to configure and manage basic organisation-level information and branding for the platform.
 
-<img src={require('../../static/img/sashakt/org-details.png').default} alt="Organisation Details page" width="700" />
+<img src={useBaseUrl('/img/sashakt/org-details.png')} alt="Organisation Details page" width="700" />
 
 Here, you can:
 
@@ -334,7 +336,7 @@ These settings help personalize the platform experience for your organisation an
 
 The Organisation Settings section is used to configure organisation-level rules and default configurations for tests across the platform.
 
-<img src={require('../../static/img/sashakt/org-settings.png').default} alt="Organisation Settings page" width="700" />
+<img src={useBaseUrl('/img/sashakt/org-settings.png')} alt="Organisation Settings page" width="700" />
 
 These settings help standardize the test experience and reduce the number of configuration options that users need to manage while creating tests. By defining rules at the organisation level, Test Admins and other users will only see the relevant and allowed options during test creation, making the process simpler and less cluttered.
 
@@ -364,7 +366,7 @@ The following settings can be configured at the organisation level to define def
 
 The Platform Nomenclature setting allows organisations to customize the terminology used across the platform to match their internal language and workflows.
 
-<img src={require('../../static/img/sashakt/platform-nomenclature.png').default} alt="Platform Nomenclature settings page" width="700" />
+<img src={useBaseUrl('/img/sashakt/platform-nomenclature.png')} alt="Platform Nomenclature settings page" width="700" />
 
 You can rename platform sections and labels such as:
 
