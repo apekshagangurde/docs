@@ -1,19 +1,29 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+sashakt:
+  label: Sashakt
+  permalink: /sashakt
+  description: Posts related to the Sashakt platform
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+assessments:
+  label: Assessments
+  permalink: /assessments
+  description: Posts about assessments and testing
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+open-source:
+  label: Open Source
+  permalink: /open-source
+  description: Posts about open source projects
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+architecture:
+  label: Architecture
+  permalink: /architecture
+  description: Posts about platform architecture
+
+social-impact:
+  label: Social Impact
+  permalink: /social-impact
+  description: Posts about social impact initiatives
+
+nonprofits:
+  label: Nonprofits
+  permalink: /nonprofits
+  description: Posts related to nonprofit organisations

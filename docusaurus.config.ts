@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://apekshagangurde.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Project Tech4Dev', // Usually your GitHub org/user name.
+  organizationName: 'apekshagangurde', // Usually your GitHub org/user name.
   projectName: 'Sashakt', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: 'Documnetation',
-              to: '/docs/intro',
+              to: 'docs/intro',
             },
           ],
         },
@@ -145,6 +145,35 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+
+        // For Docs using Chinese, it is recomended to set:
+        // language: ["en", "zh"],
+
+        // Customize the keyboard shortcut to focus search bar (default is "mod+k"):
+        // searchBarShortcutKeymap: "s", // Use 'S' key
+        // searchBarShortcutKeymap: "ctrl+shift+f", // Use Ctrl+Shift+F
+
+        // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
+        // forceIgnoreNoIndex: true,
+
+        // Enable Ask AI integration:
+        // askAi: {
+        //   project: "your-project-name",
+        //   apiUrl: "https://your-api-url.com/api/stream",
+        //   hotkey: "cmd+I", // Optional: keyboard shortcut to trigger Ask AI
+        // },
+      }),
+    ],
+  ],
 };
 
 export default config;

@@ -19,7 +19,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'System Admin',
       collapsible: true,
-      items: ['system-admin/overall-workflow', 'system-admin/organisation-settings'],
+      items: ['system-admin/overall-workflow'],
     },
     {
       type: 'category',
