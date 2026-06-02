@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Sashakt Blog</title>
+        <link>https://apekshagangurde.example.com/docs/blog</link>
+        <description>Sashakt Blog</description>
+        <lastBuildDate>Thu, 15 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Rethinking Assessments for the Social Sector – Project Sashakt]]></title>
+            <link>https://apekshagangurde.example.com/docs/blog/rethinking-assessments-for-the-social-sector-project-sashakt</link>
+            <guid>https://apekshagangurde.example.com/docs/blog/rethinking-assessments-for-the-social-sector-project-sashakt</guid>
+            <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Assessments are a critical but often painful part of work in the non-profit and social impact space. Organizations struggle with creating tests, securely storing results, and analyzing evaluations efficiently — all without standardized, affordable tools.]]></description>
+            <content:encoded><![CDATA[<p>Assessments are a critical but often painful part of work in the non-profit and social impact space. Organizations struggle with creating tests, securely storing results, and analyzing evaluations efficiently — all without standardized, affordable tools.</p>
+<p>Project Tech4Dev has launched <strong>Project Sashakt</strong>, an open-source platform designed to help nonprofits and social impact organizations conduct assessments at scale.</p>
+<!-- -->
+<p><img decoding="async" loading="lazy" alt="Sashakt Mobile App" src="https://apekshagangurde.example.com/docs/assets/images/sashakt-mobile-b8639d34069e853f4c20792eebdd948b.png" width="932" height="1024" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-problem">The Problem<a href="https://apekshagangurde.example.com/docs/blog/rethinking-assessments-for-the-social-sector-project-sashakt#the-problem" class="hash-link" aria-label="Direct link to The Problem" title="Direct link to The Problem" translate="no">​</a></h2>
+<p>The social sector lacks accessible, purpose-built tools for conducting large-scale assessments. Most organizations resort to costly custom-built solutions or fragile workarounds using generic tools — leading to inefficiencies in test creation, result storage, and data analysis.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-sashakt">What is Sashakt?<a href="https://apekshagangurde.example.com/docs/blog/rethinking-assessments-for-the-social-sector-project-sashakt#what-is-sashakt" class="hash-link" aria-label="Direct link to What is Sashakt?" title="Direct link to What is Sashakt?" translate="no">​</a></h2>
+<p>Sashakt is an open-source assessment platform built specifically for nonprofits and social impact organizations. It enables teams to:</p>
+<ul>
+<li class="">Create and manage assessments at scale</li>
+<li class="">Securely collect and store candidate responses</li>
+<li class="">Analyze evaluation data across large, distributed populations</li>
+</ul>
+<p>The platform was developed with backing from <strong>Veddis Foundation</strong> and <strong>Avanti Fellows</strong>, and is currently in its second phase of development.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="real-world-impact">Real-World Impact<a href="https://apekshagangurde.example.com/docs/blog/rethinking-assessments-for-the-social-sector-project-sashakt#real-world-impact" class="hash-link" aria-label="Direct link to Real-World Impact" title="Direct link to Real-World Impact" translate="no">​</a></h2>
+<p>Sashakt has already made a measurable difference in the field:</p>
+<ul>
+<li class="">Deployed by <strong>Veddis Foundation</strong> for SRLM (State Rural Livelihood Mission) assessments across <strong>Haryana</strong> and <strong>Himachal Pradesh</strong></li>
+<li class="">Over <strong>25,000 candidates</strong> have participated</li>
+<li class="">Generated more than <strong>200,000 responses</strong> across <strong>31 districts</strong></li>
+<li class=""><strong>Avanti Fellows</strong> plans to use the platform for <strong>100,000+ students</strong> in future cohorts</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="resources">Resources<a href="https://apekshagangurde.example.com/docs/blog/rethinking-assessments-for-the-social-sector-project-sashakt#resources" class="hash-link" aria-label="Direct link to Resources" title="Direct link to Resources" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://projecttech4dev.org/rethinking-assessments-for-the-social-sector-project-sashakt/" target="_blank" rel="noopener noreferrer" class="">Sashakt's Concept Note</a></li>
+<li class=""><a href="https://github.com/tech4dev" target="_blank" rel="noopener noreferrer" class="">Source Code on GitHub</a></li>
+<li class=""><a href="https://projecttech4dev.org/rethinking-assessments-for-the-social-sector-project-sashakt/" target="_blank" rel="noopener noreferrer" class="">Documentation on Google Drive</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="get-involved">Get Involved<a href="https://apekshagangurde.example.com/docs/blog/rethinking-assessments-for-the-social-sector-project-sashakt#get-involved" class="hash-link" aria-label="Direct link to Get Involved" title="Direct link to Get Involved" translate="no">​</a></h2>
+<p>Are you a nonprofit or social impact organization looking for a better way to conduct assessments? We'd love to collaborate with you. Reach out to the Project Tech4Dev team to explore how Sashakt can work for your organization.</p>
+<blockquote>
+<p><em>"Sashakt" means empowered — and that's exactly what we aim to do: empower organizations with the tools they need to make data-driven decisions at scale.</em></p>
+</blockquote>]]></content:encoded>
+            <category>Sashakt</category>
+            <category>Assessments</category>
+            <category>Nonprofits</category>
+            <category>Open Source</category>
+            <category>Social Impact</category>
+        </item>
+        <item>
+            <title><![CDATA[Sashakt: A Deep Dive into the Open-Source Assessment Platform]]></title>
+            <link>https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform</link>
+            <guid>https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform</guid>
+            <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We introduced Sashakt — but what is it really made of? How is it structured, how flexible is its design, and why has it proven effective for large-scale field assessments?]]></description>
+            <content:encoded><![CDATA[<p>We introduced Sashakt — but what is it really made of? How is it structured, how flexible is its design, and why has it proven effective for large-scale field assessments?</p>
+<p>Let's explore the architecture, the design choices, and the technology that power Sashakt from the inside out.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-architecture">The Architecture<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#the-architecture" class="hash-link" aria-label="Direct link to The Architecture" title="Direct link to The Architecture" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Sashakt Platform Architecture" src="https://apekshagangurde.example.com/docs/assets/images/architecture-b8639d34069e853f4c20792eebdd948b.png" width="932" height="1024" class="img_ev3q"></p>
+<p>Sashakt functions as a <strong>multi-tenant platform</strong>, allowing multiple organizations to operate independently and securely within the same system. Five core pillars hold everything together:</p>
+<ul>
+<li class=""><strong>Users</strong> — role-based access across the organization</li>
+<li class=""><strong>Tests</strong> — flexible, reusable assessment blueprints</li>
+<li class=""><strong>Questions</strong> — a centralized, reusable question bank</li>
+<li class=""><strong>Tags</strong> — organizational labels for filtering and grouping</li>
+<li class=""><strong>Candidates</strong> — the individuals being assessed</li>
+</ul>
+<p>Together, these enable a smooth assessment lifecycle — from question creation to result analytics.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-management">User Management<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#user-management" class="hash-link" aria-label="Direct link to User Management" title="Direct link to User Management" translate="no">​</a></h2>
+<p>Sashakt's role-based access structure has four hierarchical levels, each with a distinct responsibility:</p>
+<ul>
+<li class=""><strong>Super Admin</strong> — System architects managing organizational onboarding and global configurations</li>
+<li class=""><strong>System Admin</strong> — Organization-level management of users, configurations, and assessments</li>
+<li class=""><strong>State Admin</strong> — Regional managers handling localized data and operations</li>
+<li class=""><strong>Test Admin</strong> — Assessment designers who create, publish, and manage tests</li>
+</ul>
+<p>This layered structure ensures organization and scalability across diverse teams, no matter the size of the deployment.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="question-management">Question Management<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#question-management" class="hash-link" aria-label="Direct link to Question Management" title="Direct link to Question Management" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Question Management Interface" src="https://apekshagangurde.example.com/docs/assets/images/question-management-42d20caeaacb975729412a386e2d0b53.png" width="1024" height="531" class="img_ev3q"></p>
+<p>Organizations create questions once through a <strong>centralized question bank</strong>, enabling reuse across multiple assessments without duplication. Each question is fully customizable:</p>
+<ul>
+<li class="">Question text and type (single or multiple choice)</li>
+<li class="">Answer options and instructions</li>
+<li class="">Marks and difficulty level</li>
+<li class="">Organizational tags and location labels</li>
+</ul>
+<p>Create once. Reuse everywhere.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bulk-upload--content-at-scale">Bulk Upload – Content at Scale<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#bulk-upload--content-at-scale" class="hash-link" aria-label="Direct link to Bulk Upload – Content at Scale" title="Direct link to Bulk Upload – Content at Scale" translate="no">​</a></h2>
+<p>For organizations with large question banks, Sashakt supports <strong>CSV template uploads</strong> to add content in bulk. The system doesn't just fail silently — it provides a clear, pinpointed report telling you exactly what to fix, enabling rapid corrections without starting over.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="test-management">Test Management<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#test-management" class="hash-link" aria-label="Direct link to Test Management" title="Direct link to Test Management" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Test Management – Manual vs Tag-based Selection" src="https://apekshagangurde.example.com/docs/assets/images/test-management-2f4d99fa496129a7b2292796b0f202ec.png" width="1023" height="497" class="img_ev3q"></p>
+<p>Test templates act as <strong>flexible blueprints</strong> that can be customized and reused across batches or departments. Questions can be added in two ways:</p>
+<ul>
+<li class=""><strong>Manual selection</strong> — pick specific questions by hand</li>
+<li class=""><strong>Tag-based selection</strong> — automatically pull questions matching criteria like difficulty, topic, or location</li>
+</ul>
+<p>Need to run the same assessment for a new batch? <strong>Clone the entire configuration</strong> — questions, settings, everything — instantly.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tag-management">Tag Management<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#tag-management" class="hash-link" aria-label="Direct link to Tag Management" title="Direct link to Tag Management" translate="no">​</a></h2>
+<p>Tags are the organizational backbone of Sashakt. They enable powerful filtering and management across the platform.</p>
+<p>A real-world example from Veddis Foundation: content was tagged by training areas like <em>"SHG Audit," "Meeting Process,"</em> and <em>"Concept &amp; Management."</em> When building a test, matching questions were pulled automatically — no manual hunting required.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="assessment-management">Assessment Management<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#assessment-management" class="hash-link" aria-label="Direct link to Assessment Management" title="Direct link to Assessment Management" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Candidate Assessment Portal" src="https://apekshagangurde.example.com/docs/assets/images/assessment-portal-00d62c59cc054ba6b2b3dd8fedb5d98e.png" width="1023" height="376" class="img_ev3q"></p>
+<p>Field officers can conduct assessments even in <strong>low-connectivity areas</strong> using printed QR codes. Candidates scan the code to access a clean, mobile-friendly interface, complete their test, and — when enabled — view their results immediately after submission.</p>
+<p>No app install. No internet dependency. Just a QR code and a mobile browser.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="built-on-a-stack-that-doesnt-slow-down">Built on a Stack That Doesn't Slow Down<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#built-on-a-stack-that-doesnt-slow-down" class="hash-link" aria-label="Direct link to Built on a Stack That Doesn't Slow Down" title="Direct link to Built on a Stack That Doesn't Slow Down" translate="no">​</a></h2>
+<p>Sashakt is built on a modern, proven technology stack:</p>
+<table><thead><tr><th>Layer</th><th>Technology</th></tr></thead><tbody><tr><td>Backend</td><td>FastAPI</td></tr><tr><td>Database</td><td>PostgreSQL</td></tr><tr><td>Frontend</td><td>Svelte + shadcn/ui</td></tr><tr><td>Deployment</td><td>Docker + AWS Cloud</td></tr><tr><td>Analytics</td><td>BigQuery + Looker Studio</td></tr></tbody></table>
+<p>Each choice prioritizes reliability and performance at scale — because when you're running assessments across thousands of candidates in remote districts, there's no room for downtime.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next-the-vision-for-sashakt-20">What's Next: The Vision for Sashakt 2.0<a href="https://apekshagangurde.example.com/docs/blog/sashakt-a-deep-dive-into-the-open-source-assessment-platform#whats-next-the-vision-for-sashakt-20" class="hash-link" aria-label="Direct link to What's Next: The Vision for Sashakt 2.0" title="Direct link to What's Next: The Vision for Sashakt 2.0" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Sashakt 2.0 Roadmap" src="https://apekshagangurde.example.com/docs/assets/images/sashakt-2-roadmap-717c5c1c93f499fb5974bab3ab1b99bc.png" width="1024" height="487" class="img_ev3q"></p>
+<p>So far, Sashakt has enabled over <strong>8,500 candidates</strong> across <strong>31 districts</strong> in Haryana and Himachal Pradesh, generating more than <strong>2 lakh responses</strong>.</p>
+<p>Sashakt 2.0 is already underway, with planned additions including:</p>
+<ul>
+<li class="">Advanced question types</li>
+<li class="">Improved analytics and reporting</li>
+<li class="">Richer feedback tools</li>
+<li class="">Deeper personalization for candidates</li>
+</ul>
+<p>The mission remains the same: make assessments <strong>simple, reliable, and truly accessible for everyone</strong>.</p>
+<blockquote>
+<p><em>Want to explore Sashakt for your organization? Reach out to the Project Tech4Dev team — we'd love to collaborate.</em></p>
+</blockquote>]]></content:encoded>
+            <category>Sashakt</category>
+            <category>Assessments</category>
+            <category>Open Source</category>
+            <category>Architecture</category>
+            <category>Social Impact</category>
+        </item>
+    </channel>
+</rss>
