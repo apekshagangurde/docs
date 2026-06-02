@@ -1,0 +1,210 @@
+---
+sidebar_position: 1
+---
+
+# State Admin
+
+The main navigation (left panel) includes:
+
+| S.I | Left panel options | What it is / What you do there |
+|-----|-------------------|-------------------------------|
+| 1 | Tests | Create, manage, publish tests and view reports/results |
+| 3 | Question Bank | Add, edit, and manage all questions (manual or CSV upload) |
+| 4 | Tag Management | Create and organize tags used to categorize questions |
+| 5 | Forms | Create forms to collect candidate information before tests |
+| 7 | Users | Add and manage users (admins, test admins, etc.) |
+
+---
+
+## Step 1 — Setting up Tags
+
+Tag Management is used to create and organize tags that help categorize questions and tests. Tags make it easier to filter, group, and auto-select questions while creating assessments.
+
+Tags can be grouped under a **Tag Type**, which acts as a category for related tags.
+
+> For example, Tag type can be 'Difficulty Level' with tags like 'Easy', 'Medium', or 'Hard' grouped under it.
+
+1. Go to **Tag Management** from the left panel
+2. Click on **Create Tag Type**
+3. Enter:
+   - **Tag Type Name** (e.g., Difficulty Level, Subject, Grade)
+   - **Description** *(optional)* (eg — Difficulty level of questions)
+   - Click **Save**
+4. You will be redirected to the Tag Management page, where your new Tag Type will be visible
+5. Under the created Tag Type, add individual Tags
+
+   **Example:**
+   - Tag Type: Difficulty Level
+   - Tags: Easy, Medium, Hard
+
+6. Click **Add Tag** next to the Tag Type and enter each tag value
+
+<img src="/img/sashakt/create-tag-type-btn.png" alt="Create Tag Type button" width="350" />
+
+<img src="/img/sashakt/tag-management.png" alt="Tag Management row showing Difficulty Level with Medium, Hard, Easy tags" width="700" />
+
+---
+
+## Step 2 — Creating Questions (Question Bank)
+
+:::tip
+You can either create questions individually or bulk upload questions in CSV format.
+:::
+
+### Option 1 — Creating questions in Question Bank
+
+1. Go to **Question Bank** from the left panel
+2. Click on **Create Question**
+
+<img src="/img/sashakt/question-bank-buttons.png" alt="Create Question and Bulk Upload buttons" width="450" />
+
+3. Choose question type from the options given
+
+<img src="/img/sashakt/question-type.png" alt="Choose Question Type dialog showing Commonly Used and Advanced options" width="500" />
+
+4. Enter the following details:
+
+<img src="/img/sashakt/question-settings.png" alt="Question Settings form with question text and answer options" width="650" />
+
+<img src="/img/sashakt/question-answer-settings.png" alt="Answer Settings with options A, B, C, D and correct answer selection" width="650" />
+
+<img src="/img/sashakt/question-tags-marking.png" alt="Tag Types, Tags, State selection and Marking Scheme panel" width="650" />
+
+   - **Question Settings** — Question, Additional Instructions
+   - **Answer Settings** — Input the answer options and choose the correct answer
+   - Select from the Tag Types created earlier (Difficulty level) and Tags (Easy, Medium, Hard). You can select multiple tags like — Difficulty level, Focus area, audience etc based on whatever you have created in the previous step
+   - **State Selection** — Assign question to a particular state from the dropdown *(optional)*
+   - Set question as mandatory or not
+   - Mark the question as Active or Inactive based on whether it should be available for use
+   - **Marking Scheme** — Assign marks for correct answers and specify negative marking for incorrect or unanswered questions
+
+> Now this question will be saved in your question bank which can be used in the following steps to create tests.
+
+### Option 2 — Adding questions in bulk (CSV Upload)
+
+1. Click on the **Bulk Upload** option to download the CSV template.
+2. Add the questions and required details in the downloaded template.
+3. Upload the completed CSV file to bulk upload all the questions at once.
+
+---
+
+## Step 3 — Create Forms
+
+Forms are used to collect candidate information before they start a test, such as name, contact details, location, or other required details.
+
+The forms created here can later be selected during test creation under the **Candidate Information Form** option. During test creation, the form name will appear in the dropdown, allowing you to choose the appropriate form to collect candidate details before the test begins.
+
+In the Form Creation page, you have the following options available:
+
+### Primary Details
+
+- Form Name
+- Description
+- Form Status (Active / Inactive)
+
+### Field Configuration Options
+
+<img src="/img/sashakt/form-field-types.png" alt="Choose Field Type panel showing Commonly Used, General, and Choice List options" width="500" />
+
+| Category | Available Field Types |
+|---|---|
+| Commonly Used Fields | Name, Email, Phone Number, State, District, Block, Entity |
+| General Fields | Short Text, Paragraph, Number, Date |
+| Choice List Fields | Checkbox, Radio Button, Dropdown, Multi Select |
+
+### Additional Controls
+
+- Minimum Length / Minimum Value
+- Maximum Length / Maximum Value
+- Error Message
+- Pattern (Regex validation)
+
+### Other Actions
+
+- Duplicate field
+- Delete field
+- Save form
+
+---
+
+## Step 4 — Tests Creation
+
+### Create Manually
+
+#### Primary Details
+
+1. Go to **Tests** option on the left panel
+2. Click on **Create Manually** option
+3. Enter **Test Name** and **Description** details (for example — Feedback assessment for district officers)
+
+<img src="/img/sashakt/test-primary-details.png" alt="Primary Details form with Test Name, Description, Tag Types, Tags and Test Status fields" width="700" />
+
+4. Select the **Tag Types** to filter and view the relevant tags available in the platform. (For example: Difficulty Level, Focus Area, Audience, Assessment Type, etc.)
+5. Based on the selected Tag Types, the related **Tags** will appear in the dropdown for selection. These selected tags will then be associated with the test. (For example: If "Difficulty Level" is selected as the Tag Type, tags such as Easy, Medium, and Hard will be available for selection.)
+
+#### Select Questions (Auto / Manual)
+
+**Auto Selection**
+
+The platform allows you to automatically select questions for a test based on the tags chosen during test creation.
+
+1. Select the required tags for the assessment. (For example: Difficulty Level → Easy, Focus Area → Pedagogy)
+2. Specify the number of questions to be selected for each tag.
+3. The platform will automatically pull matching questions from the Question Bank based on the selected tags and configured count.
+
+This helps create balanced assessments quickly without manually selecting individual questions.
+
+<img src="/img/sashakt/question-auto-selection.png" alt="Auto Selection panel showing tags Easy and Pedagogy with number of questions per tag" width="650" />
+
+**Manual Selection**
+
+You can also manually select questions to include in the test.
+
+1. Browse and view questions available in the Question Bank.
+2. Use tags and other filters to find relevant questions.
+3. Select the required questions and add them to the test manually.
+
+This option gives you full control over exactly which questions are included in the assessment.
+
+<img src="/img/sashakt/question-manual-selection.png" alt="Manual Selection panel showing question list with answers and tags columns" width="650" />
+
+#### Test Configuration
+
+**Test Schedule**
+
+Configure the duration for which the test will remain available to candidates by selecting the test start date and time, and the end date and time. Candidates will only be able to access the test during this scheduled period.
+
+**Candidate Experience**
+
+1. With **pre-test guidelines**, you can add instructions or important information for candidates before they begin the test, such as internet requirements, test duration, rules, and dos & don'ts.
+2. Add a message that will be displayed to candidates after they successfully submit the test. This can include submission confirmation, result-related information, or instructions on the next steps.
+3. You can set the language in which candidates will view the assessment portal.
+4. With the **candidate information form**, we can select the form that should be shown to candidates before they start the test to collect the required candidate details. These forms can be created and managed using form management from side-bar.
+5. Select the **certificate template** that should be issued to candidates after they complete the test. Certificate templates can be created and managed separately using the Certificates module.
+
+<img src="/img/sashakt/candidate-experience.png" alt="Candidate Experience panel showing Pre-test Guidelines, Test Completion Message, Language, Candidate Information Form and Certificate fields" width="650" />
+
+**Test Rules**
+
+1. You can choose to shuffle questions for each candidate to reduce copying.
+2. You can choose to show marks during the test for real-time visibility.
+3. You can choose to display results immediately after the test is completed.
+
+<img src="/img/sashakt/test-rules.png" alt="Test Rules panel showing toggle options for shuffle, show marks, and show result" width="550" />
+
+---
+
+## Step 5 — Publish Test
+
+Once you click the **Save** option, the test will be saved under the Tests page. You can view it anytime by clicking on the **Tests** option on the left panel.
+
+From there, you can:
+
+- **Duplicate** the test
+- **Copy test link** that can be shared
+- **Download the QR code** to share with candidates
+- **View reports** and results once candidates start attempting the test
+- **Edit** the test details and configuration if needed
+- **Delete** the test
+
+<img src="/img/sashakt/test-actions.png" alt="Test action menu showing Edit, Download QR, Duplicate, Copy Test Link, View Report and Delete options" width="450" />
