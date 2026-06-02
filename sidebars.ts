@@ -27,6 +27,12 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       items: ['state-admin/overall-workflow'],
     },
+    {
+      type: 'category',
+      label: 'Test Admin',
+      collapsible: true,
+      items: ['test-admin/overall-workflow'],
+    },
   ],
 };
 

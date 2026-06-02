@@ -1,0 +1,8 @@
+{
+  "label": "Test Admin",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step guides for Test Admins to create and manage tests on the Sashakt platform."
+  }
+}
